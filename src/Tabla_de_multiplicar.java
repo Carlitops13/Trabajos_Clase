@@ -10,7 +10,7 @@ public class Tabla_de_multiplicar {
                 System.out.print(numero + " X " + i + " = " + (numero * i)+ "\n");
             }
 
-        }
+        }//fin programa
 
     }
 

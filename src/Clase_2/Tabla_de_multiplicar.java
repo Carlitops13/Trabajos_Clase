@@ -1,3 +1,5 @@
+package Clase_2;
+
 import java.util.Scanner;
 
 public class Tabla_de_multiplicar {

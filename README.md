@@ -7,4 +7,5 @@ Realizar EL REGISTRO de los atributos con datos quemados y utilizando Scanner co
 EJERCICIO 2
 Problema: Sistema de gestión de empleados en una empresa. Cada empleado tiene un nombre, un cargo, un salario y una fecha de ingreso a la empresa.
 Objetivo: Desarrollar una clase en Java llamada Empleado que tenga los atributos mencionados anteriormente y un método para mostrar la información del empleado. Luego, crearemos tres objetos de esta clase, cada uno representando un empleado diferente, y solicitaremos al usuario que ingrese los detalles de cada empleado a través del teclado.
+
 <img width="329" height="351" alt="image" src="https://github.com/user-attachments/assets/04276ea8-3066-488a-865d-60708659d50e" />

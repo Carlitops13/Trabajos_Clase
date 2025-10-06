@@ -35,7 +35,7 @@ public class Ejercicio_2 {
             String fecha;
 
             do {
-                System.out.println("Ingrese sus nombres: ");
+                System.out.println("Ingrese su nombre: ");
                 nombre = lector.nextLine();
                 if (nombre.isEmpty()) {
                     System.out.println("Error! No ha ingresado su nombre, inténtelo de nuevo ");
@@ -43,15 +43,16 @@ public class Ejercicio_2 {
                 }
             } while (nombre.isEmpty());
             do {
-                System.out.println("Ingrese sus apellidos: ");
+                System.out.println("Ingrese su salario: ");
                 salario = lector.nextInt();
                 if (salario < 0 || salario > 1000) {
                     System.out.println("Error! No ha ingresado sus salario, inténtelo de nuevo ");
 
                 }
             } while (salario < 0 || salario > 1000);
+            lector.nextLine();
             do {
-                System.out.println("Ingrese su cédula: ");
+                System.out.println("Ingrese su fecha de Ingreso: ");
                 fecha = lector.nextLine();
                 if (fecha.isEmpty()) {
                     System.out.println("Error! No ha ingresado su fecha de ingreso, inténtelo de nuevo ");
@@ -62,7 +63,7 @@ public class Ejercicio_2 {
             } while (fecha.isEmpty());
 
             empleado[i] = new Empleado(nombre, salario, fecha);
-            System.out.println("\n---Cliente  N°: " + (i + 1) + " registrado con éxito---");
+            System.out.println("\n---Empleado  N°: " + (i + 1) + " registrado con éxito---");
 
         }
         System.out.println("\n---Empleados Registrados---");

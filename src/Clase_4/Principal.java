@@ -29,23 +29,23 @@ public class Principal {
         Mascota mascotaNueva = new Mascota("Max", 2);
 
         System.out.println("--- Prueba de Getters y Setters ---");
-        System.out.println("Nombre inicial (GET): " + mascotaNueva.getNombre()); // Output: Max
+        System.out.println("Nombre inicial (GET): " + mascotaNueva.getNombre());
         System.out.println("Cambiando el nombre a 'Fido'...");
         mascotaNueva.setNombre("Fido");
 
-        // 3. Uso del GETTER para verificar el nuevo valor
+
         System.out.println("Nuevo nombre (GET): " + mascotaNueva.getNombre());
 
-        // 4. Uso del SETTER con validación para cambiar la edad
+
         System.out.println("\nEdad inicial: " + mascotaNueva.getEdad());
 
         System.out.println("Intentando establecer edad: 7");
         mascotaNueva.setEdad(7);
         System.out.println("Edad actualizada: " + mascotaNueva.getEdad());
 
-        // Intentando establecer edad inválida
+
         System.out.println("Intentando establecer edad: -5");
-        mascotaNueva.setEdad(-5); // Llama al mensaje de error en el setter
+        mascotaNueva.setEdad(-5);
         System.out.println("Edad después de error: " + mascotaNueva.getEdad());
 
         scanner.close();

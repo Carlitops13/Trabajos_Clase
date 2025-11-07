@@ -1,10 +1,12 @@
+package Clase_5;
+
 public class OperacionMatematica {
     // Atributos
     private int a;
     private int b;
     private int c;
 
-    // Constructor con 2 valores
+
     public OperacionMatematica(int a, int b) {
         this.a = a;
         this.b = b;

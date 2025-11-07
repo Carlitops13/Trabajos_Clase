@@ -1,0 +1,12 @@
+@startuml
+class Clase_6.Area {
++ double calcularArea(double)
++ double calcularArea(double,double)
++ double calcularArea(double,double,double)
+}
+
+class Clase_6.Main {
++ {static} void main(String[])
+}
+
+@enduml

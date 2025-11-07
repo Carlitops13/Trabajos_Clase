@@ -1,0 +1,22 @@
+@startuml
+class Clase_6.Estudiante.Estudiante {
+- String codigo
+- String nombre
+- String carrera
+- int semestre
++ String getCodigo()
++ void setCodigo(String)
++ String getNombre()
++ void setNombre(String)
++ String getCarrera()
++ void setCarrera(String)
++ int getSemestre()
++ void setSemestre(int)
++ void mostrarInformacion()
++ void modificarEstudiante()
++ void saludar()
++ String toString()
+}
+
+
+@enduml

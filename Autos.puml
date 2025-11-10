@@ -1,0 +1,54 @@
+@startuml
+class Sistema_matriculacion.Camion {
+- double capacidad
++ double calcularValorMatricula()
++ String mostrarInformacion()
+}
+
+
+class Sistema_matriculacion.Moto {
+- int cilindraje
++ double calcularValorMatricula()
++ String mostrarInformacion()
+}
+
+
+class Sistema_matriculacion.Main {
++ {static} void main(String[])
+- {static} Auto crearAutoDesdeUsuario(Scanner)
+- {static} Moto crearMotoDesdeUsuario(Scanner)
+- {static} Camion crearCamionDesdeUsuario(Scanner)
+- {static} void mostrarResultado(Vehiculo)
+}
+
+abstract class Sistema_matriculacion.Vehiculo {
+- String placa
+- String marca
+- int anio
+- String propietario
++ {abstract}double calcularValorMatricula()
++ String getPlaca()
++ void setPlaca(String)
++ String getMarca()
++ void setMarca(String)
++ int getAnio()
++ void setAnio(int)
++ String getPropietario()
++ void setPropietario(String)
++ String mostrarInformación()
+}
+
+
+class Sistema_matriculacion.Auto {
+- int numeroPuertas
++ double calcularValorMatricula()
++ String mostrarInformacion()
+}
+
+
+
+
+Sistema_matriculacion.Vehiculo <|-- Sistema_matriculacion.Camion
+Sistema_matriculacion.Vehiculo <|-- Sistema_matriculacion.Moto
+Sistema_matriculacion.Vehiculo <|-- Sistema_matriculacion.Auto
+@enduml

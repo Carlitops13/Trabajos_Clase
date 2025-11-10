@@ -1,0 +1,21 @@
+@startuml
+class Clase_Herencia2.Main {
++ {static} void main(String[])
+}
+
+class Clase_Herencia2.Animal {
+# String nombre
++ void comer()
+}
+
+
+class Clase_Herencia2.Perro {
+~ String raza
++ void ladrar()
+}
+
+
+
+
+Clase_Herencia2.Animal <|-- Clase_Herencia2.Perro
+@enduml
